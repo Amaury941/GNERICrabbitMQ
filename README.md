@@ -13,3 +13,13 @@ O que entregar?
 
 
 Um video explicando o código e mostrando o funcionamento da solução, principalmente os tópicos de 1 a 3 descritos anteriormente.
+
+
+# como executar
+  - executar source /virtua/bin/activate para entrar no ambiente virtual
+  - rodar código de rabbitMQ.txt(ou ligar o servidor rabbitMQ)
+  - rodar Publisher.py uma vez(para definir as exchanges)
+  - iniciar qualquer um dos consumers 'Maria_Antonieta','Maria_Augusta','Maria_Helena'
+  - OPCIONAL (abrir definitions.py e mudar informações da exchange e da mensagem
+  - executar Publisher.py
+  - verificar resultado.
